@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-iosvideo",
+  "_id": "cordova-plugin-iosvideo@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-v7+C3Y8MWoWZHzTxHBxD+zpV0RMb53nyRpKY4Os+IizEagBlBwaZewcvkSM/p5BiYcFeeauo7jyPOqcrc12ZbQ==",
+  "_location": "/cordova-plugin-iosvideo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-iosvideo",
+    "name": "cordova-plugin-iosvideo",
+    "escapedName": "cordova-plugin-iosvideo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-iosvideo/-/cordova-plugin-iosvideo-1.0.1.tgz",
+  "_shasum": "f052f8dc00272fbd04c17ba0029f42323748b4a0",
+  "_spec": "cordova-plugin-iosvideo",
+  "_where": "/Users/rows/Downloads",
+  "author": {
+    "name": "Aman Kumar, Sachin Kishore, Innotical Solutions Private Limited"
+  },
+  "bugs": {
+    "url": "https://github.com/d1bug/cordova-plugin-iosvideo/issues",
+    "email": "kumaraman7056@gmail.com"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-iosvideo",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Web-Rtc plugin for community app.",
+  "email": "kumaraman7056@gmail.com",
+  "homepage": "https://github.com/d1bug/cordova-plugin-iosvideo/blob/master/README.md",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "ios: webrtc",
+    "webrtc"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-iosvideo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1bug/cordova-plugin-iosvideo.git"
+  },
+  "version": "1.0.1"
+}

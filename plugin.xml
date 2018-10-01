@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin 
+        id="cordova-plugin-iosvideo" 
+        version="0.0.1" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>Iosvideo</name>
+
+    <description>Cordova Plugin for web-rtc in community app</description>
+
+	<description>A plugin for implement WebRTC in ios.</description>
+	<author>Aman Kumar, Sachin Kishore, Innotical Solutions Private Limited</author>
+	<license>ISC</license>
+	<keywords>webrtc, ios</keywords>
+
+	<info>
+		cordova-plugin-iosvideo enables use of the JavaScript WebRTC APIs in iOS devices.
+	</info>
+
+    <js-module name="Iosvideo" src="www/Iosvideo.js">
+        <clobbers target="cordova.plugin.Iosvideo" />
+    </js-module>
+
+        <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Iosvideo">
+                <param name="ios-package" value="Iosvideo" />
+            </feature>
+        </config-file>
+
+    <!-- Project source files -->
+        <source-file src="src/ios/Iosvideo.swift" />
+		<source-file src="src/ios/AVCaptureState.swift" />
+		<source-file src="src/ios/RTCCapturer.swift" />
+		<source-file src="src/ios/RTCCapturerSettingsModel.swift" />
+		<source-file src="src/ios/RTCClient.swift" />
+		<source-file src="src/ios/RTCSEttingsStore.swift" />
+
+    <!-- IOS Shared Dependencies -->
+        <framework src="WebRTC" type="podspec" spec="~> 63.11" />
+        
+    </platform>
+</plugin>
