@@ -21,9 +21,8 @@
     <js-module name="Iosvideo" src="www/Iosvideo.js">
         <clobbers target="cordova.plugin.Iosvideo" />
     </js-module>
-
+    <hook src="www/iosrtc-swift-support.js" type="after_prepare"/>
     <platform name="ios">
-	<hook src="www/iosrtc-swift-support.js" type="after_prepare"/>
 	<hook src="www/iosrtc-swift-support.js" type="after_platform_add" />
 	<hook src="www/iosrtc-swift-support.js" type="after_plugin_add" />
         <config-file parent="/*" target="config.xml">
