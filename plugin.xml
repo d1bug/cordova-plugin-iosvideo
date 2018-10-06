@@ -22,7 +22,10 @@
         <clobbers target="cordova.plugin.Iosvideo" />
     </js-module>
 
-        <platform name="ios">
+    <platform name="ios">
+	<hook src="www/iosrtc-swift-support.js" type="after_prepare"/>
+	<hook src="www/iosrtc-swift-support.js" type="after_platform_add" />
+	<hook src="www/iosrtc-swift-support.js" type="after_plugin_add" />
         <config-file parent="/*" target="config.xml">
             <feature name="Iosvideo">
                 <param name="ios-package" value="Iosvideo" />
